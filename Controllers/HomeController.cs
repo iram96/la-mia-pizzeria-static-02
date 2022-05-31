@@ -16,6 +16,9 @@ namespace la_mia_pizzeria_static.Controllers
         public IActionResult Index(string Nome, string Desc, int Prezzo)
 
         {
+            ViewData["mionome"] = "Mariano";
+            ViewData["miocognome"] = "Maselli";
+
 
             ViewData["Name"] = Nome;
             ViewData["Desc"] = Desc;
